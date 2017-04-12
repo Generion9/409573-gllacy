@@ -1,6 +1,6 @@
 # Личный проект «Глейси»
 
-* Студент: [Данила Ларин](https://up.htmlacademy.ru/htmlcss/17/user/409573).
+* Студент: [Данила Ларин Gen9](https://up.htmlacademy.ru/htmlcss/17/user/409573).
 * Наставник: [Dmitriy Kazancev].
 
 ---
