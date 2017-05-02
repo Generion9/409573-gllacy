@@ -5,56 +5,73 @@
     <title>GlaccyShop</title>
   </head>
   <body>
-    <header>
-        <div class="container">
-        <div class="index-logo">
-        <img src="#" alt="GlaccyShop">
-        </div>
-        <nav class="main-navigation">
-         <ul>
-          <li>
-           <a href="#">Каталог</a>
-          </li>
-          <li>
-           <a href="#">Доставка и оплата</a>
-          </li>
-          <li>
-           <a href="#">О Компании</a>
-          </li>
-         </ul>  
-        </nav>
+   <div class="site-wrapper">
+    <div class="content-wrapper">
+     <header class="main-header">
+      <div class="container">
+         <div class="index-logo">
+          <img src="#" alt="GlaccyShop">
+         </div>
+         <nav class="main-navigation">
+          <ul>
+           <li>
+            <a href="#">Каталог</a>
+           </li>
+           <li>
+            <a href="#">Доставка и оплата</a>
+           </li>
+           <li>
+            <a href="#">О Компании</a>
+           </li>
+          </ul>  
+         </nav>
         <div class="user-block">
+         <a class="search" href="#"><img src="#" alt="lense"></a>
          <a class="login" href="#">Вход</a>
-         <a class="cart" href="#">Пусто</a>
         </div>
         <div class="info">
-         <span>с 10 до 20, ежедневно</span>
-         <span>8 812 450-25-25</span>
+         <p>с 10 до 20, ежедневно</p>
+         <p>8 812 450-25-25</p>
         </div>
-    </header> 
-    <main class="container">
-     <div class="Hot">
-      <span>Крем-брюле и пломбир с малиновым джемом</span>
-       <br>
-      <a href="#">Давайте оба!</a>
+      </div> 
+     </header>
+     <div class="slide" id="slide1">
+      <div class="slide-title">Крем-брюле и пломбир с малиновым джемом</div>
+       <a class="slide-btn" href="#">Давайте оба!</a>
      </div>
+     <div class="slide" id="slide2">
+      <div class="slide-title">Крем-брюле и пломбир с малиновым джемом</div>
+       <a class="slide-btn" href="#">Давайте оба!</a>
+     </div>
+     <div class="slide" id="slide3">
+      <div class="slide-title">Крем-брюле и пломбир с малиновым джемом</div>
+       <a class="slide-btn" href="#">Давайте оба!</a>
+     </div>
+      <div class="slider-controls">
+       <label for="btn-1"></label>
+       <label for="btn-2"></label>
+       <label for="btn-3"></label>
+      </div>
+    </div>
+   </div>
+    <main class="container">
     <section class="features">
         <div class="features-item">
          <span class="features-name">Малинка даром!</span>
          <p>При покупке 2 кг любого фруктового мороженного, добавим в ваш заказ банку малинового варенья бесплатною</p>
-         <a href="#">Хочу варенье!</a>
+         <a class="btn-want" href="#">Хочу варенье!</a>
         </div>
         <div class="features-item">
          <span class="features-name">Шоколад даром!</span>
          <p>При покупке 2 кг любого фруктового мороженного, добавим в ваш заказ банку малинового варенья бесплатною</p>
-         <a href="#">Хочу шоколадки!</a>
+         <a class="btn-want" href="#">Хочу шоколадки!</a>
         </div>
     </section>
     <div class="hit">
-     <b><a href="#"><img src="#" alt="#">310р/кг<span class="flavor">Сливочное с апельсиновым джемом и цитрусовой стружкой</span></a></b>
-     <b><a href="#"><img src="#" alt="#">380р/кг<span class="flavor">Сливочно-кофейное с кусочками шоколада</span></a></b>
-     <b><a href="#"><img src="#" alt="#">355р/кг<span class="flavor">Сливочно-клубничное с присыпкой из белого шоколада</span></a></b> 
-     <b><a href="#"><img src="#" alt="#">415р/кг<span class="flavor">Сливочное крем-брюле с карамельной подливкой</span></a></b>      
+     <a href="#"><img src="#" alt="#">310р/кг<span class="flavor">Сливочное с апельсиновым джемом и цитрусовой стружкой</span></a>
+     <a href="#"><img src="#" alt="#">380р/кг<span class="flavor">Сливочно-кофейное с кусочками шоколада</span></a>
+     <b><a href="#"><img src="#" alt="#">355р/кг<span class="flavor">Сливочно-клубничное с присыпкой из белого шоколада</span></a> 
+     <b><a href="#"><img src="#" alt="#">415р/кг<span class="flavor">Сливочное крем-брюле с карамельной подливкой</span></a>     
     </div>
     <div class="idex-content">
      <h2>Магазин Глейси - это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
@@ -75,8 +92,7 @@
      <input type="submit" value="отправить">   
     </form>
     <div class="map">
-     <img src="#" alt="map">
-     <img src="#" alt="pin">     
+     <img src="#" alt="map">     
     </div>
     <div class="adress-block">
      <p>Адрес главного офиса и офлайн магазина:</p>
@@ -88,10 +104,10 @@
     </main>
     <footer>
      <section class="footer-social">
-      <a class="social-btn social-btn-twiter" href="#"><img src="#"></a>
-      <a class="social-btn social-btn-insta" href="#"><img src="#"></a>
-      <a class="social-btn social-btn-fb" href="#"><img src="#"></a>
-      <a class="social-btn social-btn-vk" href="#"><img src="#"></a>
+      <a class="social-btn social-btn-twiter" href="#">Твитер</a>
+      <a class="social-btn social-btn-insta" href="#">Инстаграм</a>
+      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+      <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
      </section> 
      <section class="about-us">
       <a href="#">Для доставщиков</a>
