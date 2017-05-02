@@ -64,17 +64,22 @@
     <h1>Сливочное мороженное</h1>
     <div class="filter">
      <form method="get">
-       <fieldset class="sort-by">Сортировка:</fieldset>
+       <fieldset>
+        <legend>Сортировка:</legend>
         <select name="type">
           <option value="popular">По популярности</option>
           <option value="lowest-price">Сначала недорогие</option>
           <option value="highest-price">Сначала дорогие</option>
           <option value="fat">По жирности</option>
         </select>
-       <fieldset class="price">Цена: 100 руб. - 500 руб.</fieldset>
+       </fieldset> 
+       <fieldset>
+        <legend>Цена: 100 руб. - 500 руб.</legend>
         <input type="range" name="min" id="11">
         <input type="range" name="max" id="22">
-       <fieldset class="fat-amount">Жирность:</fieldset>
+       </fieldset>
+       <fieldset>
+        <legend>Жирность:</legend>
         <input type="radio" name="group-1" id="1">
          <label for="">0%</label>
         <input type="radio" name="group-1" id="2" checked>
@@ -83,7 +88,9 @@
          <label for="">До 30%</label>
         <input type="radio" name="group-1" id="4">
          <label for="">Выше 30%</label>
-       <fieldset class="chckbx">Наполнители:</fieldset>
+       </fieldset>
+       <fieldset>
+        <legend>Наполнители:</legend>
         <input type="checkbox" name="group-2" id="qstn-1" checked>
          <label for="qstn-1">Шоколадные</label>
         <input type="checkbox" name="group-2" id="qstn-2" checked>
@@ -94,7 +101,8 @@
          <label for="qstn-4">Сиропы</label>
         <input type="checkbox" name="group-2" id="qstn-5">
          <label for="qstn-5">Джемы</label>
-       <input type="submit" value="Применить">  
+        <input type="submit" value="Применить"> 
+       </fieldset> 
      </form> 
     </div>
     <div class="product">
