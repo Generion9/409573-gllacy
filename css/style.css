@@ -55,11 +55,11 @@ background-color: #849d8f;
 	width: 1146px;
 	padding-bottom: 38px;
 }
-.option {
+.options {
 	width: 560px;
 	float:left;
 }
-.option:last-child {
+.options:last-child {
 	margin-right: 0;
 }
 .map {
