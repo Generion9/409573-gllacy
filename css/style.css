@@ -11,7 +11,7 @@ background-color: #849d8f;
 .container {
 	width: 1146px;
 	margin: auto;
-	padding: 0 10px;
+	padding: 0 26px;
 }
 .main-navigation {
 	min-height: 70px;
@@ -30,12 +30,22 @@ background-color: #849d8f;
 }
 .banners {
 	width: 1146px;
+	margin: auto;
+	padding: 0 26px;
+	padding-bottom: 35px;
 }
 .bonus {
-	float: left
+	float: left;
 	width: 560px;
 }
-.bonus2 {
-	float: right;
-	width: 560px;
+.bonus:last-child {
+	margin-right: 0;
+}
+.hit {
+	float: left;
+	width: 267px;
+	 
+}
+.hit:last-child {
+	margin-right: 0;
 }
