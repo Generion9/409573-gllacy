@@ -44,8 +44,26 @@ background-color: #849d8f;
 .hit {
 	float: left;
 	width: 267px;
+	padding-bottom: 38px;
 	 
 }
 .hit:last-child {
 	margin-right: 0;
+}
+.idex-content {
+	height: 210px;
+	width: 1146px;
+	padding-bottom: 38px;
+}
+.option {
+	width: 560px;
+	float:left;
+}
+.option:last-child {
+	margin-right: 0;
+}
+.map {
+    height: 430px;
+    margin: 0px;
+    padding: 0px;
 }
