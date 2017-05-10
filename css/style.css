@@ -50,20 +50,11 @@ background-color: #849d8f;
 .hit:last-child {
 	margin-right: 0;
 }
-.idex-content {
-	height: 210px;
-	width: 1146px;
-	padding-bottom: 38px;
-}
 .options {
+	float: left;
 	width: 560px;
-	float:left;
+	padding-bottom: 38px;
 }
 .options:last-child {
 	margin-right: 0;
-}
-.map {
-    height: 430px;
-    margin: 0px;
-    padding: 0px;
 }
