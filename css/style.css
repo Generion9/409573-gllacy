@@ -1,17 +1,134 @@
 html,
 body {
-min-width: 1122px;
-min-height: 1750px;
-margin: 0;
-padding: 0;
-font-family: "Roboto", Arial, Helvetica, sans-serif;
-background-color: #849d8f;
+    min-width: 1122px;
+    min-height: 1750px;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body > input[type="radio"] {
+	display: none;
+}
+
+.site-wrapper {
+	min-width: 1146px;
+	background-color: #849d8f;
+	background-image: url("../img/ice1.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.content-wrapper {
+	width: 1146px;
+	margin: 0 auto;
+	padding: 0 13px;
+}
+
+.main-header {
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.4)
+	box-shadow: inset 0 0 0 4px #000000;
+}
+
+.slider {
+	position: relative;
+
+	padding-top: 270px;
+
+	text-align: center;
+	color: #ffffff;
+}
+
+.slide {
+	display: none;
+}
+
+.slide-title {
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+	font-weight: 800;
+	font-size: 60px;
+}
+
+.slide-btn {
+	display: inline-block;
+	padding: 12px 50 px;
+
+	font-weight: 600;
+	font-size: 31px;
+	line-height: 41px;
+	vertical-align: top;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
+
+	background: #f26843;
+	background:  -moz-linear-gradient(top, #f26843 0%, #e74a35 100%);
+	background:  -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
+	background:  linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
+	border-radius: 100px;
+	box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+}
+
+.slider-controls {
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	z-index: 0;
+}
+
+.slider-controls label {
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 8px;
+
+	vertical-align: top;
+
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#btn-1:checked ~ .site-wrapper #slide1,
+#btn-2:checked ~ .site-wrapper #slide2,
+#btn-3:checked ~ .site-wrapper #slide3 {
+	display: block;
+}
+
+#btn-1:checked ~ .site-wrapper {
+	background-color: #849d8f;
+	background-image: url("../img/ice.jpg");
+}
+
+#btn-2:checked ~ .site-wrapper {
+	background-color: #8996a6;
+	background-image: url("../img/ice2.jpg");
+}
+
+#btn-3:checked ~ .site-wrapper {
+	background-color: #9d8b84;
+	background-image: url("../img/ice3.jpg");
+}
+
+#btn-1:checked ~ .site-wrapper label[for="btn-1"],
+#btn-2:checked ~ .site-wrapper label[for="btn-2"],
+#btn-3:checked ~ .site-wrapper label[for="btn-3"] {
+	background-color: #ffffff;
 }
 
 .container {
 	width: 1146px;
 	margin: auto;
-	padding: 0 26px;
+	padding: 0 13px;
 }
 .main-navigation {
 	min-height: 70px;
@@ -28,33 +145,40 @@ background-color: #849d8f;
 	display: table;
 	clear: both;
 }
+
 .banners {
 	width: 1146px;
 	margin: auto;
 	padding: 0 26px;
 	padding-bottom: 35px;
 }
+
 .bonus {
 	float: left;
 	width: 560px;
 }
+
 .bonus:last-child {
 	margin-right: 0;
 }
+
 .hot {
 	float: left;
 	width: 267px;
 	padding-bottom: 38px;
 	 
 }
+
 .hit:last-child {
 	margin-right: 0;
 }
+
 .options {
 	float: left;
 	width: 560px;
 	padding-bottom: 38px;
 }
+
 .options:last-child {
 	margin-right: 0;
 }
