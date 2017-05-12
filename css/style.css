@@ -18,7 +18,7 @@ body > input[type="radio"] {
 .site-wrapper {
 	min-width: 1146px;
 	background-color: #849d8f;
-	background-image: url("../img/ice1.jpg");
+	background-image: url("../img/bg-icecream1.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -106,17 +106,17 @@ body > input[type="radio"] {
 
 #btn-1:checked ~ .site-wrapper {
 	background-color: #849d8f;
-	background-image: url("../img/ice.jpg");
+	background-image: url("../img/bg-icecream1.png");
 }
 
 #btn-2:checked ~ .site-wrapper {
 	background-color: #8996a6;
-	background-image: url("../img/ice2.jpg");
+	background-image: url("../img/bg-icecream2.png");
 }
 
 #btn-3:checked ~ .site-wrapper {
 	background-color: #9d8b84;
-	background-image: url("../img/ice3.jpg");
+	background-image: url("../img/bg-icecream3.png");
 }
 
 #btn-1:checked ~ .site-wrapper label[for="btn-1"],
